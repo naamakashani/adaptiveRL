@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="95a59ea8-cfb3-4cbf-a75c-e0856f0a5f7f" name="Changes" comment="code and data">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chron/chron.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chron/chron_guesser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/.idea/adaptivFS.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/covid/covid.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/covid/covid_clean.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/covid/covid_ddqn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/covid/covid_ddqn_models/1000_dqn_0.870.pth" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/covid/covid_ddqn_models/1000_dqn_0.891.pth" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/covid/covid_ddqn_models/1000_guesser_0.870.pth" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/covid/covid_ddqn_models/1000_guesser_0.891.pth" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/covid/covid_ddqn_models/2000_dqn_0.886.pth" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/covid/covid_ddqn_models/2000_guesser_0.886.pth" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/covid/covid_ddqn_models/best_dqn.pth" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/covid/covid_ddqn_models/best_guesser.pth" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/covid/covid_env.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/covid/guesser_covid.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/covid/model_guesser_covid/best_guesser.pth" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddqn_mnist.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddqn_questionnaire.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/diabetes/diabetes_ddqn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/diabetes/diabetes_env.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/diabetes/diabetes_guesser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/diabetes/diabetes_prediction_dataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dqn_lstm_questionnaire.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guesser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heart_ddqn_models/1000_dqn_0.333.pth" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heart_ddqn_models/1000_guesser_0.333.pth" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heart_ddqn_models/2000_dqn_0.667.pth" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heart_ddqn_models/2000_guesser_0.667.pth" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heart_ddqn_models/7000_dqn_0.833.pth" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heart_ddqn_models/7000_guesser_0.833.pth" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heart_ddqn_models/best_dqn.pth" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heart_ddqn_models/best_guesser.pth" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/license.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mnist_check/X_test.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mnist_check/X_train.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mnist_check/t10k-images-idx3-ubyte.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mnist_check/t10k-labels-idx1-ubyte.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mnist_check/train-images-idx3-ubyte.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mnist_check/train-labels-idx1-ubyte.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mnist_check/y_test.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mnist_check/y_train.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mnist_env.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model_guesser_mnist/best_guesser.pth" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pretrain_guesser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pretrain_mnist_guesser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questionnaire_env.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questionnaire_lstm_env.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="5e678760-eeb2-4dba-9dcf-7da0682a04bd" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2ZZrOxnK4O3vJLvyoZHUWQXnJ78" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/kashann/PycharmProjects/adaptivFS/diabetes",
+    "settings.editor.selected.configurable": "preferences.fileTypes"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kashann\PycharmProjects\adaptivFS\diabetes" />
+      <recent name="C:\Users\kashann\PycharmProjects\adaptivFS\data" />
+      <recent name="C:\Users\kashann\PycharmProjects\adaptivFS\covid" />
+      <recent name="C:\Users\kashann\PycharmProjects\adaptivFS\model_guesser_covid" />
+      <recent name="C:\Users\kashann\PycharmProjects\adaptivFS" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kashann\PycharmProjects\adaptivFS\covid" />
+      <recent name="C:\Users\kashann\PycharmProjects\adaptivFS\chron" />
+      <recent name="C:\Users\kashann\PycharmProjects\adaptivFS\diabetes" />
+      <recent name="C:\Users\kashann\PycharmProjects\adaptivFS" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.covid">
+    <configuration name="covid" type="PythonConfigurationType" factoryName="Python">
+      <module name="adaptivFS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\kashann\AppData\Local\Programs\Python\Python39\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </EXTENSION>
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/covid/guesser_covid.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="covid_ddqn" type="PythonConfigurationType" factoryName="Python">
+      <module name="adaptivFS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\kashann\AppData\Local\Programs\Python\Python39\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </EXTENSION>
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/covid/covid_ddqn.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="diabetes_ddqn" type="PythonConfigurationType" factoryName="Python">
+      <module name="adaptivFS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\kashann\AppData\Local\Programs\Python\Python39\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </EXTENSION>
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/diabetes/diabetes_ddqn.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.covid_ddqn" />
+      <item itemvalue="Python.diabetes_ddqn" />
+      <item itemvalue="Python.covid" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="95a59ea8-cfb3-4cbf-a75c-e0856f0a5f7f" name="Changes" comment="" />
+      <created>1702640414132</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1702640414132</updated>
+      <workItem from="1702640416969" duration="883000" />
+      <workItem from="1702744123722" duration="49362000" />
+      <workItem from="1703230419447" duration="8272000" />
+      <workItem from="1703246165999" duration="2511000" />
+      <workItem from="1703349967315" duration="15247000" />
+      <workItem from="1703429621791" duration="18927000" />
+      <workItem from="1703579365642" duration="4935000" />
+    </task>
+    <task id="LOCAL-00001" summary="change get_action (if not training so no probability) and not choose mask=0 &#10;change play_episode that if t == FLAGS.episode_length make a guesse.">
+      <created>1703086497110</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1703086497110</updated>
+    </task>
+    <task id="LOCAL-00002" summary="change the guesser input and make more steps in play_episode">
+      <created>1703237693582</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1703237693583</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add covid and chron datasets">
+      <created>1703515894731</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1703515894731</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add data">
+      <created>1703588160178</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1703588160178</updated>
+    </task>
+    <task id="LOCAL-00005" summary="code and data">
+      <created>1703588813219</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1703588813219</updated>
+    </task>
+    <task id="LOCAL-00006" summary="code and data">
+      <created>1703588927966</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1703588927966</updated>
+    </task>
+    <task id="LOCAL-00007" summary="code and data">
+      <created>1703589016542</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1703589016542</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="change get_action (if not training so no probability) and not choose mask=0 &#10;change play_episode that if t == FLAGS.episode_length make a guesse." />
+    <MESSAGE value="change the guesser input and make more steps in play_episode" />
+    <MESSAGE value="add covid and chron datasets" />
+    <MESSAGE value="add data" />
+    <MESSAGE value="code and data" />
+    <option name="LAST_COMMIT_MESSAGE" value="code and data" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/chron/chron_guesser.py</url>
+          <line>160</line>
+          <option name="timeStamp" value="116" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/chron/chron_guesser.py</url>
+          <line>170</line>
+          <option name="timeStamp" value="120" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/chron/chron_guesser.py</url>
+          <line>203</line>
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/covid/guesser_covid.py</url>
+          <line>173</line>
+          <option name="timeStamp" value="189" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/adaptivFS$guesses_mnist_py.coverage" NAME="guesses_mnist.py Coverage Results" MODIFIED="1703408677759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/adaptivFS$mnist_gusser_py.coverage" NAME="mnist.py Coverage Results" MODIFIED="1703148338385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/adaptivFS$mnist_py.coverage" NAME="covid_ddqn Coverage Results" MODIFIED="1703536509314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/adaptivFS$chron.coverage" NAME="covid Coverage Results" MODIFIED="1703535389937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/adaptivFS$diabetes_ddqn.coverage" NAME="diabetes_ddqn Coverage Results" MODIFIED="1703587025694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/adaptivFS$covid_ddqn.coverage" NAME="covid_ddqn Coverage Results" MODIFIED="1703579442994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
